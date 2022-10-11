@@ -33,6 +33,13 @@
       "reviewCategory": "production",
       "shouldPublish": true,
       "tags": ["library"]
+    },
+    {
+      "packageName": "@isometry/processor",
+      "projectFolder": "library/processor",
+      "reviewCategory": "production",
+      "shouldPublish": true,
+      "tags": ["library"]
     }
   ]
 }
