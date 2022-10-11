@@ -26,5 +26,13 @@
     "library",
     "utility"
   ],
-  "projects": []
+  "projects": [
+    {
+      "packageName": "@isometry/css",
+      "projectFolder": "library/css",
+      "reviewCategory": "production",
+      "shouldPublish": true,
+      "tags": ["library"]
+    }
+  ]
 }
