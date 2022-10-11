@@ -1,0 +1,7 @@
+{
+  "extends": "./base.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "lib": ["es2020", "scripthost", "dom", "dom.iterable"]
+  }
+}

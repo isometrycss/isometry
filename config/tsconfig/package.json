@@ -1,0 +1,36 @@
+{
+  "name": "@isometry/tsconfig",
+  "version": "0.0.1",
+  "description": "TypeScript configurations",
+  "license": "MIT",
+  "keywords": [
+    "tsconfig",
+    "typescript",
+    "config"
+  ],
+  "homepage": "https://www.isometrycss.com",
+  "author": {
+    "name": "Ömer Balyali",
+    "email": "omerbalyali@gmail.com",
+    "url": "https://www.omerbalyali.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/isometrycss/isometry.git",
+    "directory": "config/tsconfig"
+  },
+  "main": "base.json",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "*.json",
+    "types"
+  ],
+  "scripts": {
+    "build": "",
+    "test": ""
+  },
+  "peerDependencies": {
+    "typescript": "^4.8.0"
+  }
+}

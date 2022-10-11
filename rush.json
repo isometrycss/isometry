@@ -7,7 +7,7 @@
   "projectFolderMinDepth": 2,
   "projectFolderMaxDepth": 2,
   "approvedPackagesPolicy": {
-    "reviewCategories": ["production", "tools", "example", "website"],
+    "reviewCategories": ["config", "example", "production", "tools", "website"],
     "ignoredNpmScopes": ["@types"]
   },
   "gitPolicy": {
@@ -20,6 +20,7 @@
     "defaultRemote": "origin"
   },
   "allowedProjectTags": [
+    "config",
     "documentation",
     "example",
     "integration",
@@ -28,11 +29,11 @@
   ],
   "projects": [
     {
-      "packageName": "documentation-website",
-      "projectFolder": "documentation/website",
-      "reviewCategory": "website",
-      "shouldPublish": false,
-      "tags": ["documentation"]
+      "packageName": "@isometry/tsconfig",
+      "projectFolder": "config/tsconfig",
+      "reviewCategory": "production",
+      "shouldPublish": true,
+      "tags": ["config"]
     },
     {
       "packageName": "documentation-website",

@@ -1,0 +1,11 @@
+{
+  "extends": "./checks.json",
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "es2020",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "lib": ["es2020", "scripthost"]
+  }
+}
