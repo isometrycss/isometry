@@ -30,6 +30,13 @@
     {
       "packageName": "documentation-website",
       "projectFolder": "documentation/website",
+      "reviewCategory": "website",
+      "shouldPublish": false,
+      "tags": ["documentation"]
+    },
+    {
+      "packageName": "documentation-website",
+      "projectFolder": "documentation/website",
       "reviewCategory": "example",
       "shouldPublish": false,
       "tags": ["example"]
