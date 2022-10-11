@@ -28,6 +28,13 @@
   ],
   "projects": [
     {
+      "packageName": "documentation-website",
+      "projectFolder": "documentation/website",
+      "reviewCategory": "example",
+      "shouldPublish": false,
+      "tags": ["example"]
+    },
+    {
       "packageName": "@isometry/esbuild-plugin",
       "projectFolder": "integration/esbuild-plugin",
       "reviewCategory": "production",
