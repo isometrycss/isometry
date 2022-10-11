@@ -28,6 +28,13 @@
   ],
   "projects": [
     {
+      "packageName": "@isometry/esbuild-plugin",
+      "projectFolder": "integration/esbuild-plugin",
+      "reviewCategory": "production",
+      "shouldPublish": true,
+      "tags": ["integration"]
+    },
+    {
       "packageName": "@isometry/css",
       "projectFolder": "library/css",
       "reviewCategory": "production",
