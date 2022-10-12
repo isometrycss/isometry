@@ -3,8 +3,24 @@
   "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/approved-packages.schema.json",
   "packages": [
     {
+      "name": "@isometry/tsconfig",
+      "allowedCategories": [ "example", "production" ]
+    },
+    {
+      "name": "esbuild",
+      "allowedCategories": [ "example", "production" ]
+    },
+    {
+      "name": "react",
+      "allowedCategories": [ "example" ]
+    },
+    {
+      "name": "react-dom",
+      "allowedCategories": [ "example" ]
+    },
+    {
       "name": "typescript",
-      "allowedCategories": [ "production" ]
+      "allowedCategories": [ "example", "production" ]
     }
   ]
 }
