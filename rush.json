@@ -42,6 +42,13 @@
     {
       "packageName": "documentation-website",
       "projectFolder": "documentation/website",
+      "reviewCategory": "website",
+      "shouldPublish": false,
+      "tags": ["documentation"]
+    },
+    {
+      "packageName": "example-esbuild",
+      "projectFolder": "example/esbuild",
       "reviewCategory": "example",
       "shouldPublish": false,
       "tags": ["example"]
