@@ -1,0 +1,3 @@
+{
+  "extends": "@isometry/tsconfig/node"
+}
